@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Komentar</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+            margin-top: 50px;
+        }
+        textarea {
+            width: 300px;
+            height: 100px;
+        }
+        .komentar-terkirim {
+            width: 300px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="input-komentar">
+            <h3>Isi Komentar</h3>
+            <textarea id="komentar" placeholder="Tulis komentar Anda"></textarea><br>
+            <button type ="submit" id="kirimKomentar">Kirim Komentar</button>
+        </div>
+        <div class="komentar-terkirim">
+            <h3>Komentar Tersubmit</h3>
+            <ul id="listKomentar">
+            </ul>
+        </div>
+    </div>
+    <script src ="jquery.js"></script>
+</body>
+</html>

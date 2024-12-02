@@ -1,0 +1,8 @@
+CREATE DATABASE komentar_db;
+
+USE komentar_db;
+
+CREATE TABLE komentar (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    uraian_komentar TEXT NOT NULL
+);
